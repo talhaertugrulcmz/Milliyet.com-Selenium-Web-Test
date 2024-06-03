@@ -1,0 +1,15 @@
+Created by ertug on 6/2/2024
+
+This is a concept file with following syntax for each concept.
+
+
+# Sag Sol Bar Ile Swipe Kontrolu
+* ".cat-slider__nav--prev > .fas" li sol bar tiklama , ".cat-slider__nav--next > .fas" li sag bar tiklama
+
+
+# Numara Ile Swipe Kontrolu
+*"[data-slider-index='4']" li Alt Navbar Swipe Kontrolu
+
+
+# Mouse Ile Swipe Kontrolu
+* Mouse Ile Swipe Testi

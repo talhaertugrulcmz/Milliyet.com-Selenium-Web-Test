@@ -1,0 +1,17 @@
+Created by ertug on 4/1/2024
+
+This is a concept file with following syntax for each concept.
+
+
+# Milliyet.com Anasayfa URL Kontrolu
+* URL Kontrolü
+
+# Gündem Kategorisne Tıklama
+*".main-menu__nav-link[href='/gundem/']" li Gundem butonuna tikla
+* "1" saniye kadar bekle
+
+
+# Yeni Sayfa Url Kontrolu
+* Yeni Sekme Url Kontrolu
+* "1" saniye kadar bekle
+
