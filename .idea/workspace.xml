@@ -4,32 +4,96 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81839791-2eb4-4e89-99cb-a9213f868265" name="Changes" comment="" />
+    <list default="true" id="81839791-2eb4-4e89-99cb-a9213f868265" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/method/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/method/Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step/StepImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/StepImplementation.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Concept" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;talhaertugrulcmz&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/talhaertugrulcmz/Milliyet.com-Selenium-Web-Test&quot;,
+    &quot;accountId&quot;: &quot;29ee275b-fcce-4465-b84d-1ba0dcc6907d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2hM7LimS2tAo4E8GiuvtI6HIvY5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gauge Execution.Milliyet.com Test Automation.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ertug/OneDrive/Masaüstü/Ideasoft-QA-TestAutomation-Project-master&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ertug\IdeaProjects\DemirorenMedyaTest\src\test" />
+      <recent name="C:\Users\ertug\IdeaProjects\DemirorenMedyaTest" />
+      <recent name="C:\Users\ertug\IdeaProjects\DemirorenMedyaTest\specs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Milliyet.com Test Automation" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/MilliyetTest.spec:8" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="Milliyet.comWebTest" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gauge Execution.Milliyet.com Test Automation" />
+        <item itemvalue="Gauge Execution.Milliyet.com Test Automation" />
+        <item itemvalue="Gauge Execution.Milliyet.com Test Automation" />
+        <item itemvalue="Gauge Execution.Milliyet.com Test Automation" />
+        <item itemvalue="Gauge Execution.Milliyet.com Test Automation" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

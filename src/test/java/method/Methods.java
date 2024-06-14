@@ -67,6 +67,12 @@ public class Methods {
                 .build()
                 .perform();
     }
+    public void ReklamBlock(){
+        WebElement Reklam = driver.findElement(By.id("divbanner-container"));
+        if (Reklam.isDisplayed()){
+            driver.findElement(By.id("intclose")).click();
+        }
+    }
 }
 
 

@@ -3,66 +3,117 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>DemirorenMedyaTest</artifactId>
+    <artifactId>Milliyet.comWebTest</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+        <gauge.version>0.10.3</gauge.version>
+        <selenium.version>3.141.59</selenium.version>
+        <gauge.plugin.version>1.6.1</gauge.plugin.version>
+        <maven.compiler.version>3.7.0</maven.compiler.version>
+        <log4j.version>1.7.30</log4j.version>
+        <gson.version>2.8.8</gson.version>
+    </properties>
 
     <dependencies>
         <dependency>
             <groupId>com.thoughtworks.gauge</groupId>
             <artifactId>gauge-java</artifactId>
-            <version>[0.10.3,)</version>
+            <version>${gauge.version}</version>
             <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.google.guava</groupId>
+                    <artifactId>guava</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
-            <groupId>org.assertj</groupId>
-            <artifactId>assertj-core</artifactId>
-            <version>3.25.3</version>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.1.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.12.0</version>
+            <version>${selenium.version}</version>
             <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.21</version>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>8.2.2.jre11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>${gson.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.thoughtworks.gauge.maven/gauge-archetype-java -->
+        <!-- https://mvnrepository.com/artifact/com.thoughtworks.gauge.maven/gauge-maven-plugin -->
+        <dependency>
+            <groupId>com.thoughtworks.gauge.maven</groupId>
+            <artifactId>gauge-maven-plugin</artifactId>
+            <version>1.6.1</version>
         </dependency>
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>3.7.1</version>
+            <version>5.8.0</version>
+            <scope>test</scope>
         </dependency>
-		<dependency>
-            <groupId>org.reflections</groupId>
-            <artifactId>reflections</artifactId>
-            <version>0.9.10</version>
-        </dependency>
+
+
+
     </dependencies>
 
     <build>
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+            </testResource>
+        </testResources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.7.0</version>
+                <version>${maven.compiler.version}</version>
                 <configuration>
-                    <source>11</source>
-                    <target>11</target>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
                 </configuration>
             </plugin>
             <plugin>
                 <groupId>com.thoughtworks.gauge.maven</groupId>
                 <artifactId>gauge-maven-plugin</artifactId>
-                <version>1.6.3</version>
-                <executions>
-                    <execution>
-                        <phase>test</phase>
-                        <configuration>
-                            <specsDir>specs</specsDir>
-                        </configuration>
-                        <goals>
-                            <goal>execute</goal>
-                        </goals>
-                    </execution>
-                </executions>
+                <version>${gauge.plugin.version}</version>
             </plugin>
         </plugins>
     </build>
